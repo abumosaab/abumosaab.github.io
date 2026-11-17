@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="I build web applications. Simple, practical solutions for your business. أطوّر تطبيقات الويب. حلول بسيطة وعملية لأعمالك.">
+    <title>Web application developer | مطوّر تطبيقات ويب</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main>
+      <header class="intro">
+        <div class="message">
+          <p class="eyebrow">Web application developer</p>
+          <h1>I build web applications.</h1>
+          <p class="summary">Simple, practical solutions for your business.</p>
+        </div>
+        <div class="message" lang="ar" dir="rtl">
+          <p class="eyebrow">مطوّر تطبيقات ويب</p>
+          <p class="headline">أطوّر تطبيقات الويب.</p>
+          <p class="summary">حلول بسيطة وعملية لأعمالك.</p>
+        </div>
+      </header>
+
+      <section class="contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Let's talk <span lang="ar" dir="rtl">لنتحدث</span></h2>
+
+        <form method="post" aria-describedby="privacy-note" action="https://formspree.io/f/mqpqqdow">
+          <fieldset>
+            <legend class="visually-hidden">Contact details / <span lang="ar" dir="rtl">تفاصيل التواصل</span></legend>
+            <div class="fields">
+              <div class="field">
+                <label for="name">Name <span lang="ar" dir="rtl">الاسم</span></label>
+                <input id="name" name="name" type="text" autocomplete="name" dir="auto" maxlength="100" required>
+              </div>
+              <div class="field">
+                <label for="email">Email <span lang="ar" dir="rtl">البريد الإلكتروني</span></label>
+                <input id="email" name="email" type="email" autocomplete="email" dir="ltr" maxlength="254" required>
+              </div>
+            </div>
+            <div class="field">
+              <label for="message">Message <span lang="ar" dir="rtl">الرسالة</span></label>
+              <textarea id="message" name="message" rows="4" dir="auto" maxlength="5000" required></textarea>
+            </div>
+            <div class="honeypot" aria-hidden="true">
+              <label for="website">Leave this field empty</label>
+              <input id="website" name="_gotcha" type="text" tabindex="-1" autocomplete="off">
+            </div>
+            <button type="submit">Send message <span lang="ar" dir="rtl">إرسال الرسالة</span></button>
+          </fieldset>
+          <p id="privacy-note" class="privacy">
+            This form sends your details to Formspree to deliver your message.
+            <span lang="ar" dir="rtl">يرسل هذا النموذج بياناتك إلى Formspree لتوصيل رسالتك.</span>
+          </p>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
